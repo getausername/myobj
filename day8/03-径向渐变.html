@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>径向渐变</title>
+    <style>
+        div{
+            margin-bottom: 10px;
+        }
+        .box1{
+            width: 200px;
+            height: 100px;
+            background: radial-gradient(red,green,blue);
+        }
+        .box2{
+            width: 200px;
+            height: 100px;
+            background: radial-gradient(circle,red,green,blue);
+        }
+        .box3{
+            width: 200px;
+            height: 100px;
+            background: radial-gradient(red 10%,green 20%,blue 70%);
+        }
+        .box4{
+            width: 200px;
+            height: 100px;
+            /* 不同尺寸大小与位置的使用 */
+            /* background: radial-gradient(30px 100px at 50% 20%,red,green,blue); */
+            background: radial-gradient(farthest-side at 50% 20%,red,green,blue);
+        }
+        .box4{
+            width: 400px;
+            height: 400px;
+            background: repeating-radial-gradient(red,green 10%,blue 20%);
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box5"></div>
+</body>
+</html>

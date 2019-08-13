@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            overflow: hidden;
+            /* white-space: nowrap; */
+            text-overflow: ellipsis;/*溢出段末显示省略号“...”*/
+             /*将对象作为弹性伸缩盒子模型显示 */
+            display: -webkit-box;
+            /*一个块元素显示的文本的行数*/
+            -webkit-line-clamp: 3;
+            /*设置或检索伸缩盒对象的子元素的排列方式 */
+            -webkit-box-orient: vertical;
+        }
+        .test{
+            width: 12em;
+            word-wrap: break-word;
+        }
+        p.test1
+        {
+            width:11em; 
+            border:1px solid #000000;
+            /*只能在半角空格或连字符处换行*/
+            word-break:keep-all;
+        }
+        p.test2
+        {
+            width:9em; 
+            border:1px solid #000000;
+            /*允许在单词内换行*/
+            word-break:break-all;
+        }
+    </style>
+</head>
+<body>
+    <div>我是div我是div我是div我是div我是div我是div我是div我是div我是div</div>
+    <p class="test"> This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.</p>
+    <p class="test1"> This paragraph contains some text. This line will-break-at-hyphenates.</p>
+    <p class="test2"> This paragraph contains some text: The lines will-break-at-hyphenates.</p>
+</body>
+</html>
