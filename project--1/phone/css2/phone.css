@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 0.2rem;
+    background-color: #F0EFED;
+}
+ html {
+    font-size: calc((100*100vw) / 600);  
+     
+     /* 16vm 
+        600px  100vm   600px
+        100px  16.6    
+          ?=60px =600*16.6/100
+        1rem=100px */
+ }
+.head {
+    background: linear-gradient(to right, #FFCF00 , #FFBF00);
+    font-size: 0.14rem;
+    display: flex;
+    justify-content: space-between;
+    height: 0.505rem;
+    position: relative;
+}
+.head-left {
+    display: inline-block;
+    margin: 0.155rem 0 0.155rem 0.185rem;
+}
+.head-mid {
+    position: relative;
+    line-height: 0.505rem;
+    position: absolute;
+    left: 0.75rem;
+}
+.head-mid span {
+    width: 0.34rem;
+    height: 0.29rem;
+    position: absolute;
+    top: 0.01rem;
+    left: 0.12rem;
+    color: #A8A38F;
+    font-size: 0.135rem;
+}
+.head-mid input {
+    width: 4.75rem;
+    height: 0.32rem;
+    border-radius: 0.1rem;
+    border: none;
+    font-size: 0.13rem;
+    padding: 0 0.4rem;
+    box-sizing: border-box;
+    color: #A8A38F;
+    background-color: #FFF9E5;
+}
+.head .f1 {
+    position: absolute;
+    right: 0.1rem;
+    top: 0.1rem;
+    font-size: 0.25rem;
+}
+/* *******black********* */
+.black {
+    background-color: black;
+    height: 0.52rem;    
+    position: relative;
+}
+.black img{
+    width: 0.36rem;
+    height: 0.36rem;
+    position: absolute;
+    top: 0.08rem;
+    left: 0.16rem;
+}
+.black-mid {
+    display: inline-block;
+    color: white;
+    font-size: 0.13rem;
+    position: absolute;
+    top: 0.08rem;
+    left: 0.6rem;
+}
+.black-mid p:nth-child(2) {
+    font-size: 0.11rem;
+    font-weight: lighter;
+}
+.black-right {
+    background-color: #FFBF00;
+    display: inline-block;
+    font-size: 0.12rem;
+    width: 0.55rem;
+    height: 0.3rem;
+    text-align: center;
+    line-height: 0.3rem;
+    border-radius: 0.1rem;
+    position: absolute;
+    top: 0.09rem;
+    right: 0.16rem;
+}
+/* ********nav********* */
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.nav-1 {
+    padding: 0.1rem 0;
+    width: 1.2rem;
+    text-align: center;
+}
+.nav-1 .iconfont {
+    display: inline-block;
+    color: white;
+    background-color: #FD9D21;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    line-height: 0.4rem;
+}
+.nav-1-1 {
+    font-size: 0.12rem;
+    color: #666666;
+    padding-left: 0.09rem;
+}
+/* 2222 */
+.nav-2 {
+    padding: 0.1rem 0;
+    width: 1.2rem;
+    text-align: center;
+}
+.nav-2 .iconfont {
+    display: inline-block;
+    color: #FF6767;
+    font-size: 0.4rem;
+    border-radius: 0.2rem;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.nav-2-1 {
+    font-size: 0.12rem;
+    color: #666666;
+    padding-left: 0.09rem;
+}
+/* ****3333 */
+.nav-3 {
+    padding: 0.1rem 0;
+    width: 1.2rem;
+    text-align: center;
+}
+.nav-3 .iconfont {
+    display: inline-block;
+    color: white;
+    background-color: #8A90FA;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    line-height: 0.4rem;
+}
+.nav-3-1 {
+    font-size: 0.12rem;
+    color: #666666;
+    padding-left: 0.09rem;
+}
+/* 4444444 */
+.nav-4 {
+    padding: 0.1rem 0;
+    width: 1.2rem;
+    text-align: center;
+}
+.nav-4 .iconfont {
+    display: inline-block;
+    color: white;
+    background-color: #FED030;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    line-height: 0.4rem;
+}
+.nav-4-1 {
+    font-size: 0.12rem;
+    color: #666666;
+    padding-left: 0.09rem;
+}
+/* **55555 */
+.nav-5 {
+    padding: 0.1rem 0;
+    width: 1.2rem;
+    text-align: center;
+}
+.nav-5 .iconfont {
+    display: inline-block;
+    color: white;
+    background-color: #FD9D21;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    line-height: 0.4rem;
+}
+.nav-5-1 {
+    font-size: 0.12rem;
+    color: #666666;
+    padding-left: 0.09rem;
+}
+/* 666666666666 */
+.nav-6 {
+    padding: 0.1rem 0;
+    width: 1.2rem;
+    text-align: center;
+}
+.nav-6 .iconfont {
+    display: inline-block;
+    color: white;
+    background-color: #FED030;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    line-height: 0.4rem;
+}
+.nav-6-1 {
+    font-size: 0.12rem;
+    color: #666666;
+    padding-left: 0.09rem;
+}
+/* 777777777777 */
+.nav-7 {
+    padding: 0.1rem 0;
+    width: 1.2rem;
+    text-align: center;
+}
+.nav-7 .iconfont {
+    display: inline-block;
+    color: #4DC6EE;
+    font-size: 0.4rem;
+    border-radius: 0.2rem;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.nav-7-1 {
+    font-size: 0.12rem;
+    color: #666666;
+    padding-left: 0.09rem;
+}
+/* 888888888 */
+.nav-8 {
+    padding: 0.1rem 0;
+    width: 1.2rem;
+    text-align: center;
+}
+.nav-8 .iconfont {
+    display: inline-block;
+    color: white;
+    background-color: #FF80C2;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    line-height: 0.4rem;
+}
+.nav-8-1 {
+    font-size: 0.12rem;
+    color: #666666;
+    padding-left: 0.09rem;
+}
+/* 999999999 */
+.nav-9 {
+    padding: 0.1rem 0;
+    width: 1.2rem;
+    text-align: center;
+}
+.nav-9 .iconfont {
+    display: inline-block;
+    color: white;
+    background-color: #FD9D21;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    line-height: 0.4rem;
+}
+.nav-9-1 {
+    font-size: 0.12rem;
+    color: #666666;
+    padding-left: 0.09rem;
+}
+/* 101010101010 */
+.nav-10 {
+    padding: 0.1rem 0;
+    width: 1.2rem;
+    text-align: center;
+}
+.nav-10 .iconfont {
+    display: inline-block;
+    color: white;
+    background-color: #00d3be;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    line-height: 0.4rem;
+}
+.nav-10-1 {
+    font-size: 0.12rem;
+    color: #666666;
+    padding-left: 0.09rem;
+}
+/* ***********guess******* */
+.guees {
+    background-color: white;
+    width: 100%;
+    margin-top: 0.1rem;
+    padding-left: 0.1rem;
+}
+.guees>span {
+    display: inline-block;
+    width: 100%;
+    font-size: 0.17rem;
+    color: #333333;
+    padding: 0.14rem 0.1rem 0.1rem 0;
+    border-bottom: 1px solid #DDD8CE;
+}
+.information-1 {
+    border-bottom: 1px solid #DDD8CE;
+    position: relative;
+}
+.guees img {
+    padding: 0.08rem 0.08rem 0.08rem 0 ;
+    width: 0.9rem;
+    height: 0.9rem;
+}
+.information-1-1 {
+    font-size: 0.15rem;
+    position: absolute;
+    top: 0.1rem;
+    left: 1.0rem;
+}
+ .information-1-2 {
+    font-size: 0.12rem;
+    position: absolute;
+    top: 0.33rem;
+    left: 1.0rem;
+    color: #666666;
+}
+.information-1-3 {
+    font-size: 0.18rem;
+    color: #F60;
+    position: absolute;
+    bottom: 0.1rem;
+    left: 1.0rem;
+}
+.information-1-4 {
+    font-size: 0.12rem;
+    color: #F60;
+    position: absolute;
+    bottom: 0.11rem;
+    left: 1.2rem;
+}
+.information-1-5 {
+    font-size: 0.12rem;
+    color: #666666;
+    position: absolute;
+    bottom: 0.11rem;
+    left: 1.4rem;
+}
+.information-1-6 {
+    font-size: 0.12rem;
+    color: #666666;
+    position: absolute;
+    bottom: 0.11rem;
+    right: 0.2rem;
+}
+/* *************foot*********** */
+.foot-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.15rem 0.18rem 0 0.18rem;
+    background-color: white;
+    margin-top: 0.08rem;
+}
+.foot-1 .foot-1-1,.foot-1-2{
+    background-color: #FFBF00;
+    display: inline-block;
+    font-size: 0.12rem;
+    width: 0.55rem;
+    height: 0.3rem;
+    text-align: center;
+    line-height: 0.3rem;
+    border-radius: 0.1rem;
+    /* position: absolute;
+    top: 0.09rem;
+    right: 0.16rem; */
+}
+.foot-1 img {
+    width: .12rem;
+    height: .137rem;
+}
+.foot-1 .foot-1-3 {
+    font-size: .13rem;
+    color: #A8A38F;
+}
+.foot-1 .foot-1-4 {
+    font-size: .13rem;
+}
+.foot-2 {
+    background-color: white;
+}
+.foot-2 span {
+    font-size: 0.11rem;
+    display: inline-block;
+    color: #FE8C00;
+    padding: 0 0.4rem;
+    border-right: 0.01rem solid black;
+    margin: 0.2rem 0;
+    box-sizing: border-box;
+}
+.foot-2 span:nth-child(5) {
+    border: none;
+}
+.foot-3 span {
+    font-size: 0.11rem;
+    color: #A8A38F;
+}
+.foot-3 {
+    text-align: center;
+    background-color: white;
+}
